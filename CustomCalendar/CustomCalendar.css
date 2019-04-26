@@ -1,0 +1,152 @@
+.THIS .custom-box {
+    text-align: center;
+    font-size: .875rem;
+}
+
+.THIS .custom-box2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.THIS .dataPick {
+    text-align: center;
+    background-color: rgb(22, 50, 92);
+    color: rgb(255, 255, 255);
+    font-size: .875rem;
+    font-weight: 700;
+    padding: .5rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.THIS .dataPick2 {
+    background-color: rgb(22, 50, 92);
+    padding-top: 0.4rem;
+    padding-left: 10px;
+}
+
+.THIS .dataPick3 {
+    background-color: rgb(22, 50, 92);
+    padding-top: 0.4rem;
+    padding-right: 10px;
+}
+
+
+.THIS .slds-grid_pull-padded-medium {
+    margin: 0px;
+}
+
+.THIS .slds-grid--pull-padded-medium {
+    margin: 0px;
+}
+
+.THIS .slds-card cCustomCalendar {
+    border-bottom-width: 0px;
+    border: none;
+}
+
+.THIS .slds-card__header {
+    margin: 0px;
+        padding: .30rem 1rem 0;
+}
+
+.THIS .slds-card__body {
+    margin-bottom: 0;
+}
+
+.THIS .arrowColor {
+    color: white;
+        padding-bottom: inherit;
+}
+
+.THIS .footers {
+    
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 3.75rem;
+    border-top: 1px solid rgb(221, 219, 218);
+    background-color: rgb(255, 255, 255);
+    transition: transform .2s,visibility .2s;
+    visibility: visible;
+    display: block;
+    margin-bottom: 60px;
+}
+.THIS .divObject {
+    margin: 16px 16px 16px 16px;
+    
+}
+.THIS .cardObject {
+    padding: 16px 16px 16px 16px;
+    margin: 16px 16px 16px 16px;
+
+}
+
+.THIS .titleCard {
+    color: rgb(0, 112, 210);
+    font-size: 1.00rem;
+    font-weight: 700;
+    white-space: normal;
+}
+
+.THIS .descCard {
+    font-size: 1rem;
+    color: rgb(8, 7, 7);
+    font-family: 'Salesforce Sans',Arial,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+}
+
+.THIS .dataCard {
+    color: rgb(62, 62, 60);
+    line-height: 1.5rem;
+}
+
+.THIS .selected {
+    border-color: rgb(21, 137, 238);
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+
+.THIS .actionButtons .oneActionBar {
+    margin-bottom: 60px;
+
+}
+
+.THIS .empty {
+    padding: 100px 2rem 1rem 2rem;
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(62, 62, 60);
+}
+
+.THIS.outerScroller {
+    /* fix innerScroller not scrollable */
+    border-radius: 1px;
+    max-height: 74vh !important;
+}
+.THIS.innerScroller {
+    /* make innerScroller rounded */
+    border-radius: 10px;
+}
+
+.THIS .spacer-pull-to-load-more {
+    height: 0px !important;
+}
+
+.THIS .uiScrollerWrapper.scrollable {
+    max-height: 74vh;
+}
+
+.THIS .oneActionBar.actionButtons {
+    margin-bottom: 60px !important;
+}
+
+.THIS .foot {
+    margin-bottom: 60px !important;
+}
